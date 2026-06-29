@@ -1,5 +1,7 @@
 # Credit Card Fraud Detection
 
+🔗 **Live demo:** [fraud-detection-system-dckqfvr92hchnkhdsfn9mx.streamlit.app](https://fraud-detection-system-dckqfvr92hchnkhdsfn9mx.streamlit.app/)
+
 A machine learning project that detects fraudulent credit card transactions using Logistic Regression, with a focus on correctly handling extreme class imbalance — and an interactive Streamlit app to demo predictions live.
 
 ## Problem Statement
@@ -55,8 +57,8 @@ fraud-detection-project/
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/fraud-detection-project.git
-cd fraud-detection-project
+git clone https://github.com/Swanandik/fraud-detection-system.git
+cd fraud-detection-system
 
 # Install dependencies
 pip install -r requirements.txt
@@ -80,4 +82,3 @@ The app will open at `http://localhost:8501`. Pick a row number from the test se
 - Compare against other models (Random Forest, XGBoost)
 - Add SMOTE-based oversampling as an alternative to class weighting
 - Add data visualizations (class distribution, amount comparison) directly into the app
-- Deploy the app publicly (e.g., Streamlit Community Cloud)
